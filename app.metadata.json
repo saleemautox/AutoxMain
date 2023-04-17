@@ -1,0 +1,19 @@
+{
+  "id" : 11219,
+  "applicationName" : "TestApp",
+  "description" : "",
+  "applicationUrl" : "http://",
+  "state" : null,
+  "tag" : "",
+  "repositoryType" : "GIT",
+  "repository" : "https://github.com/saleemautox/AutoxMain.git",
+  "gitRepositoryBranch" : "main",
+  "gitAaRepository" : "https://github.com/saleemautox/AutoXautoware.git",
+  "gitAaRepositoryBranch" : "main",
+  "gitResultRepository" : "https://github.com/saleemautox/AutoXResult.git",
+  "gitResultRepositoryBranch" : "main",
+  "gitAaScreenshotsRepository" : "https://github.com/saleemautox/AutoxautowareScrenshot.git",
+  "gitAaScreenshotsRepositoryBranch" : "main",
+  "repositoryChanged" : false,
+  "platforms" : [ ]
+}
