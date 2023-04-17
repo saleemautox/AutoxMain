@@ -1,4 +1,4 @@
-[ {
+{
   "id" : 11220,
   "platformId" : 1,
   "platformTitle" : "WindowsWeb",
@@ -12,4 +12,4 @@
   "pages" : [ ],
   "subApplications" : [ ],
   "areas" : [ ]
-} ]
+}
