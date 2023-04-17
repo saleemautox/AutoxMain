@@ -1,0 +1,12 @@
+[ {
+  "name" : "FirstRelease",
+  "uuid" : "1-d5a6aa5d-facb-4700-bbd8-6d076ae6fd82",
+  "releaseNumber" : "1.0",
+  "jiraFilterBaseUrl" : "",
+  "jiraFilterId" : "",
+  "jiraFilter" : "",
+  "active" : "true",
+  "userName" : "",
+  "password" : "",
+  "requirements" : [ ]
+} ]

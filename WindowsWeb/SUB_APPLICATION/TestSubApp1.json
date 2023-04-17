@@ -1,0 +1,8 @@
+{
+  "id" : null,
+  "subApplicationName" : "TestSubApp1",
+  "description" : "Accounting",
+  "applicationUrl" : "http://",
+  "acl" : [ ],
+  "areas" : [ ]
+}

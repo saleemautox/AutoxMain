@@ -5,11 +5,18 @@
   "platformUrl" : null,
   "type" : "Web",
   "createdAt" : "2023-04-17 11:47:53",
-  "modifiedAt" : "2023-04-17 11:47:53",
+  "modifiedAt" : "2023-04-17 12:44:39",
   "createdBy" : "saleemu@tlinkusa.com",
-  "acl" : null,
+  "acl" : [ "11218" ],
   "versions" : [ 2, 3, 4, 5, 11, 13, 14, 6, 7, 8, 9, 10, 12, 15, 16 ],
   "pages" : [ ],
   "subApplications" : [ ],
-  "areas" : [ ]
+  "areas" : [ {
+    "name" : "TeatArea1",
+    "subAreas" : [ {
+      "name" : "TestSubArea1",
+      "acl" : [ ]
+    } ],
+    "acl" : [ ]
+  } ]
 }
