@@ -1,0 +1,48 @@
+{
+  "name" : "Testsubscript",
+  "applicationName" : "TestApp",
+  "platformTitle" : "WindowsWeb",
+  "containerApplication" : "TestSubApp1",
+  "type" : "SUBSCRIPTS",
+  "area" : "",
+  "subArea" : "",
+  "release" : "FirstRelease",
+  "createdBy" : "saleemu@tlinkusa.com",
+  "datafiles" : [ ],
+  "steps" : [ {
+    "stepNumber" : 1.0,
+    "actionName" : "OpenUrl",
+    "attributes" : [ {
+      "name" : "Page",
+      "value" : "About"
+    } ],
+    "sentence" : "Open Page <b  class='script-text-line-highlighter'>About</b>",
+    "referenceNumber" : "16818425958145573"
+  }, {
+    "stepNumber" : 2.0,
+    "actionName" : "Confirm",
+    "attributes" : [ {
+      "name" : "Page",
+      "value" : "About"
+    }, {
+      "name" : "Object",
+      "value" : "page_title_text"
+    }, {
+      "name" : "Property",
+      "value" : "textContent"
+    }, {
+      "name" : "Operator",
+      "value" : "equal to"
+    }, {
+      "name" : "Value",
+      "value" : "test-automation-solutions"
+    } ],
+    "sentence" : "Confirm within <b  class='script-text-line-highlighter'>About</b> page, property <b  class='script-text-line-highlighter'>textContent</b> of object <b  class='script-text-line-highlighter'>page_title_text</b> is <b  class='script-text-line-highlighter'>equal to</b> <b  class='script-text-line-highlighter'>test-automation-solutions</b>",
+    "referenceNumber" : "16818425958141282"
+  } ],
+  "executeRowNum" : 0,
+  "createdTime" : "2023-04-18 11:29:55",
+  "modifiedTime" : "2023-04-18 11:29:55",
+  "requirements" : [ ],
+  "autoAware" : false
+}
