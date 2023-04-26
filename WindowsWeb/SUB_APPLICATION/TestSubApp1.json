@@ -3,6 +3,6 @@
   "subApplicationName" : "TestSubApp1",
   "description" : "Accounting",
   "applicationUrl" : "http://",
-  "acl" : [ ],
+  "acl" : [ "11218" ],
   "areas" : [ ]
 }

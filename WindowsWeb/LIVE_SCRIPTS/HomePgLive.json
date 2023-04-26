@@ -1,0 +1,228 @@
+{
+  "name" : "HomePgLive",
+  "applicationName" : "TestApp",
+  "platformTitle" : "WindowsWeb",
+  "containerApplication" : "TestSubApp1",
+  "type" : "LIVESCRIPT",
+  "area" : "",
+  "subArea" : "",
+  "release" : "FirstRelease",
+  "createdBy" : "saleemu@tlinkusa.com",
+  "datafiles" : [ ],
+  "steps" : [ {
+    "stepNumber" : 1.0,
+    "actionName" : "OpenUrl",
+    "attributes" : [ {
+      "name" : "Page",
+      "value" : "/"
+    } ],
+    "sentence" : "Open URL <b class='script-text-line-highlighter'>/</b>",
+    "referenceNumber" : "16818429940658625"
+  }, {
+    "stepNumber" : 2.0,
+    "actionName" : "Click",
+    "attributes" : [ {
+      "name" : "Page",
+      "value" : "/"
+    }, {
+      "name" : "Object",
+      "value" : "HOME"
+    } ],
+    "sentence" : "Click on <b class='script-text-line-highlighter'>HOME</b>",
+    "referenceNumber" : "16818429940652218"
+  }, {
+    "stepNumber" : 3.0,
+    "actionName" : "Click",
+    "attributes" : [ {
+      "name" : "Page",
+      "value" : "/"
+    }, {
+      "name" : "Object",
+      "value" : "ABOUT US"
+    } ],
+    "sentence" : "Click on <b class='script-text-line-highlighter'>ABOUT US</b>",
+    "referenceNumber" : "16818429940659750"
+  }, {
+    "stepNumber" : 4.0,
+    "actionName" : "Click",
+    "attributes" : [ {
+      "name" : "Page",
+      "value" : "/"
+    }, {
+      "name" : "Object",
+      "value" : "TEST AUTOMATION SOLUTIONS"
+    } ],
+    "sentence" : "Click on <b class='script-text-line-highlighter'>TEST AUTOMATION SOLUTIONS</b>",
+    "referenceNumber" : "16818429940659791"
+  }, {
+    "stepNumber" : 5.0,
+    "actionName" : "Click",
+    "attributes" : [ {
+      "name" : "Page",
+      "value" : "/"
+    }, {
+      "name" : "Object",
+      "value" : "BUSINESS PROCESS AUTOMATION"
+    } ],
+    "sentence" : "Click on <b class='script-text-line-highlighter'>BUSINESS PROCESS AUTOMATION</b>",
+    "referenceNumber" : "16818429940656381"
+  }, {
+    "stepNumber" : 6.0,
+    "actionName" : "Click",
+    "attributes" : [ {
+      "name" : "Page",
+      "value" : "/"
+    }, {
+      "name" : "Object",
+      "value" : "CONTACT US"
+    } ],
+    "sentence" : "Click on <b class='script-text-line-highlighter'>CONTACT US</b>",
+    "referenceNumber" : "16818429940656949"
+  }, {
+    "stepNumber" : 7.0,
+    "actionName" : "Click",
+    "attributes" : [ {
+      "name" : "Page",
+      "value" : "/"
+    }, {
+      "name" : "Object",
+      "value" : "CUSTOMER PORTAL"
+    } ],
+    "sentence" : "Click on <b class='script-text-line-highlighter'>CUSTOMER PORTAL</b>",
+    "referenceNumber" : "16818429940651988"
+  }, {
+    "stepNumber" : 8.0,
+    "actionName" : "Click",
+    "attributes" : [ {
+      "name" : "Page",
+      "value" : "/"
+    }, {
+      "name" : "Object",
+      "value" : "ABOUT US"
+    } ],
+    "sentence" : "Click on <b class='script-text-line-highlighter'>ABOUT US</b>",
+    "referenceNumber" : "16818429940651183"
+  } ],
+  "executeRowNum" : 0,
+  "createdTime" : "2023-04-18 11:15:48",
+  "modifiedTime" : "2023-04-18 11:36:34",
+  "requirements" : [ ],
+  "lsamo" : [ {
+    "alias" : "HOME",
+    "parameter" : "xpath",
+    "parametervalue" : "//*[@id=\"menu-item-4274\"]/a[1]",
+    "type" : "LINK",
+    "objectList" : [ ],
+    "attributes" : {
+      "textContent" : "HOME",
+      "href" : "https//tiecheusa.com/website/"
+    },
+    "oldValue" : null,
+    "status" : null,
+    "lastTapedDropdownObj" : null,
+    "isFormObject" : false,
+    "defaultDataFile" : null,
+    "autoAwareObjectType" : null,
+    "allowedCharacters" : "",
+    "fieldLength" : 0,
+    "url" : "https://tiecheusa.com/website/test-automation-solutions/"
+  }, {
+    "alias" : "ABOUT US",
+    "parameter" : "xpath",
+    "parametervalue" : "//*[@id=\"menu-item-4271\"]/a[1]",
+    "type" : "LINK",
+    "objectList" : [ ],
+    "attributes" : {
+      "textContent" : "ABOUT US",
+      "href" : "https//tiecheusa.com/website/about-us/"
+    },
+    "oldValue" : null,
+    "status" : null,
+    "lastTapedDropdownObj" : null,
+    "isFormObject" : false,
+    "defaultDataFile" : null,
+    "autoAwareObjectType" : null,
+    "allowedCharacters" : "",
+    "fieldLength" : 0,
+    "url" : "https://tiecheusa.com/website/"
+  }, {
+    "alias" : "TEST AUTOMATION SOLUTIONS",
+    "parameter" : "xpath",
+    "parametervalue" : "//*[@id=\"menu-item-6291\"]/a[1]",
+    "type" : "LINK",
+    "objectList" : [ ],
+    "attributes" : {
+      "textContent" : "TEST AUTOMATION SOLUTIONS",
+      "href" : "https//tiecheusa.com/website/test-automation-solutions/"
+    },
+    "oldValue" : null,
+    "status" : null,
+    "lastTapedDropdownObj" : null,
+    "isFormObject" : false,
+    "defaultDataFile" : null,
+    "autoAwareObjectType" : null,
+    "allowedCharacters" : "",
+    "fieldLength" : 0,
+    "url" : "https://tiecheusa.com/website/about-us/"
+  }, {
+    "alias" : "BUSINESS PROCESS AUTOMATION",
+    "parameter" : "xpath",
+    "parametervalue" : "//*[@id=\"menu-item-6292\"]/a[1]",
+    "type" : "LINK",
+    "objectList" : [ ],
+    "attributes" : {
+      "textContent" : "BUSINESS PROCESS AUTOMATION",
+      "href" : "https//tiecheusa.com/website/business-process-automation/"
+    },
+    "oldValue" : null,
+    "status" : null,
+    "lastTapedDropdownObj" : null,
+    "isFormObject" : false,
+    "defaultDataFile" : null,
+    "autoAwareObjectType" : null,
+    "allowedCharacters" : "",
+    "fieldLength" : 0,
+    "url" : "https://tiecheusa.com/website/test-automation-solutions/"
+  }, {
+    "alias" : "CONTACT US",
+    "parameter" : "xpath",
+    "parametervalue" : "//*[@id=\"menu-item-4185\"]/a[1]",
+    "type" : "LINK",
+    "objectList" : [ ],
+    "attributes" : {
+      "textContent" : "CONTACT US",
+      "href" : "https//tiecheusa.com/website/contacts/"
+    },
+    "oldValue" : null,
+    "status" : null,
+    "lastTapedDropdownObj" : null,
+    "isFormObject" : false,
+    "defaultDataFile" : null,
+    "autoAwareObjectType" : null,
+    "allowedCharacters" : "",
+    "fieldLength" : 0,
+    "url" : "https://tiecheusa.com/website/careers/"
+  }, {
+    "alias" : "CUSTOMER PORTAL",
+    "parameter" : "xpath",
+    "parametervalue" : "//*[@id=\"menu-item-5651\"]/a[1]",
+    "type" : "LINK",
+    "objectList" : [ ],
+    "attributes" : {
+      "textContent" : "CUSTOMER PORTAL",
+      "href" : "https//tiecheusa.com/website/customer-portal/"
+    },
+    "oldValue" : null,
+    "status" : null,
+    "lastTapedDropdownObj" : null,
+    "isFormObject" : false,
+    "defaultDataFile" : null,
+    "autoAwareObjectType" : null,
+    "allowedCharacters" : "",
+    "fieldLength" : 0,
+    "url" : "https://tiecheusa.com/website/contacts/"
+  } ],
+  "url" : "/",
+  "environment" : "TiecheApp",
+  "autoAware" : false
+}

@@ -1,0 +1,312 @@
+{
+  "name" : "PerfTest1",
+  "applicationName" : "TestApp",
+  "platformTitle" : "WindowsWeb",
+  "containerApplication" : "TestSubApp1",
+  "type" : "PERF_TEST_SCRIPT",
+  "area" : "",
+  "subArea" : "",
+  "release" : "FirstRelease",
+  "createdBy" : "saleemu@tlinkusa.com",
+  "datafiles" : [ ],
+  "steps" : [ ],
+  "executeRowNum" : 0,
+  "createdTime" : "2023-04-18 11:51:52",
+  "modifiedTime" : "2023-04-18 11:59:21",
+  "requirements" : [ ],
+  "testPlanMap" : {
+    "TestElement.gui_class" : "org.apache.jmeter.control.gui.TestPlanGui",
+    "TestElement.test_class" : "org.apache.jmeter.testelement.TestPlan",
+    "TestElement.name" : "Test Plan",
+    "TestElement.enabled" : "true",
+    "TestPlan.comments" : "",
+    "TestPlan.functional_mode" : false,
+    "TestPlan.tearDown_on_shutdown" : true,
+    "TestPlan.serialize_threadgroups" : false,
+    "TestPlan.user_defined_variables" : {
+      "Arguments.arguments" : [ ],
+      "TestElement.gui_class" : "org.apache.jmeter.config.gui.ArgumentsPanel",
+      "TestElement.test_class" : "org.apache.jmeter.config.Arguments",
+      "TestElement.name" : "User Defined Variables",
+      "TestElement.enabled" : "true"
+    },
+    "TestPlan.user_define_classpath" : "",
+    "childElementList" : [ {
+      "Arguments.arguments" : [ ],
+      "TestElement.gui_class" : "org.apache.jmeter.config.gui.ArgumentsPanel",
+      "TestElement.test_class" : "org.apache.jmeter.config.Arguments",
+      "TestElement.name" : "User Defined Variables",
+      "TestElement.enabled" : "true",
+      "childElementList" : [ ]
+    }, {
+      "TestElement.gui_class" : "org.apache.jmeter.protocol.http.config.gui.HttpDefaultsGui",
+      "TestElement.test_class" : "org.apache.jmeter.config.ConfigTestElement",
+      "TestElement.name" : "HTTP Request Defaults",
+      "TestElement.enabled" : "true",
+      "HTTPSampler.protocol" : "",
+      "HTTPSampler.domain" : "",
+      "HTTPSampler.port" : "",
+      "HTTPSampler.path" : "",
+      "HTTPSampler.contentEncoding" : "",
+      "HTTPSampler.postBodyRaw" : false,
+      "HTTPsampler.Arguments" : {
+        "Arguments.arguments" : [ ],
+        "TestElement.gui_class" : "org.apache.jmeter.protocol.http.gui.HTTPArgumentsPanel",
+        "TestElement.test_class" : "org.apache.jmeter.config.Arguments",
+        "TestElement.name" : "Send Parameters with the Request",
+        "TestElement.enabled" : "true"
+      },
+      "HTTPSampler.implementation" : "",
+      "HTTPSampler.connect_timeout" : "",
+      "HTTPSampler.response_timeout" : "",
+      "HTTPSampler.image_parser" : false,
+      "HTTPSampler.concurrentDwn" : false,
+      "HTTPSampler.concurrentPool" : 6,
+      "HTTPSampler.embedded_url_re" : "",
+      "HTTPSampler.embedded_url_exclude_re" : "",
+      "HTTPSampler.ipSourceType" : 0,
+      "HTTPSampler.ipSource" : "",
+      "HTTPSampler.proxyScheme" : "",
+      "HTTPSampler.proxyHost" : "",
+      "HTTPSampler.proxyPort" : "",
+      "HTTPSampler.proxyUser" : "",
+      "HTTPSampler.proxyPass" : "",
+      "HTTPSampler.md5" : false,
+      "childElementList" : [ ]
+    }, {
+      "HeaderManager.headers" : [ ],
+      "TestElement.gui_class" : "org.apache.jmeter.protocol.http.gui.HeaderPanel",
+      "TestElement.test_class" : "org.apache.jmeter.protocol.http.control.HeaderManager",
+      "TestElement.name" : "HTTP Header Manager",
+      "TestElement.enabled" : "true",
+      "childElementList" : [ ]
+    }, {
+      "AuthManager.auth_list" : [ ],
+      "TestElement.gui_class" : "org.apache.jmeter.protocol.http.gui.AuthPanel",
+      "TestElement.test_class" : "org.apache.jmeter.protocol.http.control.AuthManager",
+      "TestElement.name" : "HTTP Authorization Manager",
+      "TestElement.enabled" : "true",
+      "AuthManager.clearEachIteration" : false,
+      "AuthManager.controlledByThreadGroup" : false,
+      "childElementList" : [ ]
+    }, {
+      "clearEachIteration" : false,
+      "useExpires" : true,
+      "TestElement.gui_class" : "org.apache.jmeter.protocol.http.gui.CacheManagerGui",
+      "TestElement.test_class" : "org.apache.jmeter.protocol.http.control.CacheManager",
+      "TestElement.name" : "HTTP Cache Manager",
+      "TestElement.enabled" : "true",
+      "CacheManager.controlledByThread" : false,
+      "maxSize" : 5000,
+      "childElementList" : [ ]
+    }, {
+      "CookieManager.cookies" : [ ],
+      "TestElement.gui_class" : "org.apache.jmeter.protocol.http.gui.CookiePanel",
+      "TestElement.test_class" : "org.apache.jmeter.protocol.http.control.CookieManager",
+      "TestElement.name" : "HTTP Cookie Manager",
+      "TestElement.enabled" : "true",
+      "CookieManager.clearEachIteration" : false,
+      "CookieManager.controlledByThreadGroup" : false,
+      "CookieManager.policy" : "standard",
+      "childElementList" : [ ]
+    }, {
+      "TestElement.gui_class" : "org.apache.jmeter.threads.gui.ThreadGroupGui",
+      "TestElement.test_class" : "org.apache.jmeter.threads.ThreadGroup",
+      "TestElement.name" : "Simple Thread Group",
+      "TestElement.enabled" : "true",
+      "ThreadGroup.on_sample_error" : "continue",
+      "ThreadGroup.main_controller" : {
+        "LoopController.continue_forever" : false,
+        "TestElement.gui_class" : "org.apache.jmeter.control.gui.LoopControlPanel",
+        "TestElement.test_class" : "org.apache.jmeter.control.LoopController",
+        "TestElement.name" : "Loop Controller",
+        "TestElement.enabled" : "true",
+        "LoopController.loops" : 1
+      },
+      "ThreadGroup.num_threads" : 1,
+      "ThreadGroup.ramp_time" : 1,
+      "ThreadGroup.same_user_on_next_iteration" : true,
+      "ThreadGroup.delayedStart" : false,
+      "ThreadGroup.scheduler" : false,
+      "ThreadGroup.duration" : "",
+      "ThreadGroup.delay" : "",
+      "childElementList" : [ {
+        "TestElement.gui_class" : "org.apache.jmeter.protocol.http.control.gui.RecordController",
+        "TestElement.test_class" : "org.apache.jmeter.protocol.http.control.RecordingController",
+        "TestElement.name" : "Recording Controller",
+        "TestElement.enabled" : "true",
+        "childElementList" : [ {
+          "HTTPsampler.Arguments" : {
+            "Arguments.arguments" : [ ],
+            "TestElement.test_class" : "org.apache.jmeter.config.Arguments"
+          },
+          "TestElement.gui_class" : "org.apache.jmeter.protocol.http.control.gui.HttpTestSampleGui",
+          "TestElement.name" : "/website/test-automation-solutions/-1",
+          "TestElement.enabled" : "true",
+          "TestElement.test_class" : "org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy",
+          "HTTPSampler.implementation" : "HttpClient4",
+          "HTTPSampler.follow_redirects" : false,
+          "HTTPSampler.use_keepalive" : false,
+          "HTTPSampler.domain" : "",
+          "HTTPSampler.method" : "GET",
+          "HTTPSampler.port" : "",
+          "HTTPSampler.protocol" : "",
+          "HTTPSampler.contentEncoding" : "UTF-8",
+          "HTTPSampler.path" : "/website/test-automation-solutions/",
+          "HTTPSampler.header_manager" : {
+            "HeaderManager.headers" : [ {
+              "Header.name" : "Sec-Fetch-Mode",
+              "Header.value" : "navigate",
+              "TestElement.test_class" : "org.apache.jmeter.protocol.http.control.Header"
+            }, {
+              "Header.name" : "Sec-Fetch-Site",
+              "Header.value" : "none",
+              "TestElement.test_class" : "org.apache.jmeter.protocol.http.control.Header"
+            }, {
+              "Header.name" : "Accept-Language",
+              "Header.value" : "en-US,en;q=0.9",
+              "TestElement.test_class" : "org.apache.jmeter.protocol.http.control.Header"
+            }, {
+              "Header.name" : "Sec-Fetch-User",
+              "Header.value" : "?1",
+              "TestElement.test_class" : "org.apache.jmeter.protocol.http.control.Header"
+            }, {
+              "Header.name" : "Accept",
+              "Header.value" : "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+              "TestElement.test_class" : "org.apache.jmeter.protocol.http.control.Header"
+            }, {
+              "Header.name" : "sec-ch-ua",
+              "Header.value" : "\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"111\"",
+              "TestElement.test_class" : "org.apache.jmeter.protocol.http.control.Header"
+            }, {
+              "Header.name" : "sec-ch-ua-mobile",
+              "Header.value" : "?0",
+              "TestElement.test_class" : "org.apache.jmeter.protocol.http.control.Header"
+            }, {
+              "Header.name" : "sec-ch-ua-platform",
+              "Header.value" : "\"Windows\"",
+              "TestElement.test_class" : "org.apache.jmeter.protocol.http.control.Header"
+            }, {
+              "Header.name" : "Upgrade-Insecure-Requests",
+              "Header.value" : "1",
+              "TestElement.test_class" : "org.apache.jmeter.protocol.http.control.Header"
+            }, {
+              "Header.name" : "Accept-Encoding",
+              "Header.value" : "gzip, deflate, br",
+              "TestElement.test_class" : "org.apache.jmeter.protocol.http.control.Header"
+            }, {
+              "Header.name" : "User-Agent",
+              "Header.value" : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "TestElement.test_class" : "org.apache.jmeter.protocol.http.control.Header"
+            }, {
+              "Header.name" : "Sec-Fetch-Dest",
+              "Header.value" : "document",
+              "TestElement.test_class" : "org.apache.jmeter.protocol.http.control.Header"
+            } ],
+            "TestElement.gui_class" : "org.apache.jmeter.protocol.http.gui.HeaderPanel",
+            "TestElement.test_class" : "org.apache.jmeter.protocol.http.control.HeaderManager",
+            "TestElement.name" : "HTTP Header Manager",
+            "TestElement.enabled" : "true"
+          },
+          "HTTPSampler.auto_redirects" : false,
+          "childElementList" : [ {
+            "HeaderManager.headers" : [ {
+              "Header.name" : "Sec-Fetch-Mode",
+              "Header.value" : "navigate",
+              "TestElement.test_class" : "org.apache.jmeter.protocol.http.control.Header"
+            }, {
+              "Header.name" : "Sec-Fetch-Site",
+              "Header.value" : "none",
+              "TestElement.test_class" : "org.apache.jmeter.protocol.http.control.Header"
+            }, {
+              "Header.name" : "Accept-Language",
+              "Header.value" : "en-US,en;q=0.9",
+              "TestElement.test_class" : "org.apache.jmeter.protocol.http.control.Header"
+            }, {
+              "Header.name" : "Sec-Fetch-User",
+              "Header.value" : "?1",
+              "TestElement.test_class" : "org.apache.jmeter.protocol.http.control.Header"
+            }, {
+              "Header.name" : "Accept",
+              "Header.value" : "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+              "TestElement.test_class" : "org.apache.jmeter.protocol.http.control.Header"
+            }, {
+              "Header.name" : "sec-ch-ua",
+              "Header.value" : "\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"111\"",
+              "TestElement.test_class" : "org.apache.jmeter.protocol.http.control.Header"
+            }, {
+              "Header.name" : "sec-ch-ua-mobile",
+              "Header.value" : "?0",
+              "TestElement.test_class" : "org.apache.jmeter.protocol.http.control.Header"
+            }, {
+              "Header.name" : "sec-ch-ua-platform",
+              "Header.value" : "\"Windows\"",
+              "TestElement.test_class" : "org.apache.jmeter.protocol.http.control.Header"
+            }, {
+              "Header.name" : "Upgrade-Insecure-Requests",
+              "Header.value" : "1",
+              "TestElement.test_class" : "org.apache.jmeter.protocol.http.control.Header"
+            }, {
+              "Header.name" : "Accept-Encoding",
+              "Header.value" : "gzip, deflate, br",
+              "TestElement.test_class" : "org.apache.jmeter.protocol.http.control.Header"
+            }, {
+              "Header.name" : "User-Agent",
+              "Header.value" : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+              "TestElement.test_class" : "org.apache.jmeter.protocol.http.control.Header"
+            }, {
+              "Header.name" : "Sec-Fetch-Dest",
+              "Header.value" : "document",
+              "TestElement.test_class" : "org.apache.jmeter.protocol.http.control.Header"
+            } ],
+            "TestElement.gui_class" : "org.apache.jmeter.protocol.http.gui.HeaderPanel",
+            "TestElement.test_class" : "org.apache.jmeter.protocol.http.control.HeaderManager",
+            "TestElement.name" : "HTTP Header Manager",
+            "TestElement.enabled" : "true",
+            "childElementList" : [ ]
+          } ]
+        } ]
+      } ]
+    }, {
+      "ProxyControlGui.port" : "8888",
+      "ProxyControlGui.exclude_list" : [ ],
+      "ProxyControlGui.include_list" : [ ],
+      "ProxyControlGui.capture_http_headers" : true,
+      "TestElement.name" : "Correlation Recorder",
+      "TestElement.gui_class" : "com.blazemeter.jmeter.correlation.CorrelationProxyControlGui",
+      "TestElement.test_class" : "com.blazemeter.jmeter.correlation.CorrelationProxyControl",
+      "TestElement.enabled" : "true",
+      "ProxyControlGui.domains" : "",
+      "ProxyControlGui.grouping_mode" : 0,
+      "ProxyControlGui.add_assertion" : false,
+      "ProxyControlGui.regex_match" : false,
+      "ProxyControlGui.proxy_prefix_http_sampler_name" : "",
+      "ProxyControlGui.proxy_http_sampler_naming_mode" : 0,
+      "ProxyControlGui.proxy_http_sampler_format" : "#{counter,number,000} - #{path} (#{name})",
+      "ProxyControlGui.proxy_pause_http_sampler" : "",
+      "ProxyControlGui.default_encoding" : "UTF-8",
+      "ProxyControlGui.sampler_download_images" : false,
+      "ProxyControlGui.sampler_redirect_automatically" : false,
+      "ProxyControlGui.sampler_follow_redirects" : true,
+      "ProxyControlGui.use_keepalive" : true,
+      "ProxyControlGui.sampler_type_name" : "HttpClient4",
+      "ProxyControlGui.detect_graphql_request" : true,
+      "ProxyControlGui.content_type_include" : "",
+      "ProxyControlGui.content_type_exclude" : "",
+      "ProxyControlGui.notify_child_sl_filtered" : true,
+      "CorrelationProxyControl.components" : "",
+      "CorrelationProxyControl.groups" : [ {
+        "TestElement.test_class" : "com.blazemeter.jmeter.correlation.gui.RulesGroupTestElement",
+        "TestElement.enabled" : "true",
+        "CorrelationProxyControl.RulesGroup.id" : "Group-1",
+        "CorrelationProxyControl.RulesGroup.rules" : {
+          "TestElement.test_class" : "com.blazemeter.jmeter.correlation.gui.CorrelationRulesTestElement",
+          "CorrelationRules.rules" : [ ]
+        }
+      } ],
+      "CorrelationProxyControl.responseFilter" : "",
+      "childElementList" : [ ]
+    } ]
+  },
+  "autoAware" : false
+}
