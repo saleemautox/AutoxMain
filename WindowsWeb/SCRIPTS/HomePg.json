@@ -1,0 +1,27 @@
+{
+  "name" : "HomePg",
+  "applicationName" : "TestApp",
+  "platformTitle" : "WindowsWeb",
+  "containerApplication" : "WindowsWeb",
+  "type" : "SCRIPTS",
+  "area" : "TeatArea1",
+  "subArea" : "TestSubArea1",
+  "release" : "FirstRelease",
+  "createdBy" : "saleemu@tlinkusa.com",
+  "datafiles" : [ ],
+  "steps" : [ {
+    "stepNumber" : 1.0,
+    "actionName" : "OpenUrl",
+    "attributes" : [ {
+      "name" : "Page",
+      "value" : "HomePage"
+    } ],
+    "sentence" : null,
+    "referenceNumber" : "16818413574127706"
+  } ],
+  "executeRowNum" : 0,
+  "createdTime" : "2023-04-18 11:09:17",
+  "modifiedTime" : "2023-04-18 11:09:17",
+  "requirements" : [ ],
+  "autoAware" : false
+}
